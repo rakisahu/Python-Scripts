@@ -3,7 +3,7 @@
 
 import pathlib
 
-a = pathlib.Path("/etc/hosts")
+a = pathlib.Path("/etc/hosts")  #Here we used "a" as a variable
 print(a)
 print(a.exists())
 print(a.is_file())
